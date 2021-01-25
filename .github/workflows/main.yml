@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: azure/login@v1
       with:
-          creds: ${{ secrets.AZCALETAITWEB }}
+          creds: ${{ secrets.azholmes3dscansweb }}
 
     - name: Upload to blob storage
       uses: azure/CLI@v1
